@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
+
+  main{
+    width: 100%;
+    background-image: url(https://images.pexels.com/photos/18068490/pexels-photo-18068490/free-photo-of-an-artist-s-illustration-of-artificial-intelligence-ai-this-image-depicts-how-ai-tools-can-reproduce-and-disguise-biases-and-the-importance-of-research-to-mitigate-this-it-was-created.png?auto=compress&cs=tinysrgb&w=600&lazy=load);
+    background-size: cover;
+    /* background-position: center; */
+  }
+  nav{
+    padding: 60px 100px;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  nav .part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 140px;
+  }
+
+  nav h2{
+    font-size: 50px;
+    font-weight: 500;
+  }
+
+  nav a{
+    font-family: "Gowun Batang", serif;
+    font-weight: 500;
+    font-size: 35px;
+    text-decoration: none;
+    color: #000;
+  }
+
+  section{
+    padding: 60px 100px;
+  }
+
+  section .hero-Text1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .hero-Text1 h1{
+    font-size: 300px;
+    text-transform: uppercase;
+    line-height: 300px; 
+    font-weight: 900;
+    font-family: "Oswald", sans-serif;
+  }
+
+  .hero-Text1 .video{
+    height: 100px;
+    width: 400px;
+    margin-top: 40px;
+    background-color: black;
+    border-radius: 50px;
+    background-image: url(https://images.pexels.com/photos/14032497/pexels-photo-14032497.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-position: 50px;
+    padding: 12px;
+  }
+
+  .video .play{
+    height: 100%;
+    width: 70px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .play i{
+    color: #fff;
+    font-size: 85px;
+  }
+
+  section .hero-Text2{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+
+  .hero-Text2 h1{
+    font-size: 350px;
+    text-transform: uppercase;
+    line-height: 300px; 
+    font-weight: 900;
+    font-family: "Oswald", sans-serif;
+  }
+
+  .hero-Text2 p{
+    font-family: "Gowun Batang", serif;
+    font-size: 20px;
+    font-size: 40px;
+    text-transform: uppercase;
+    width: 800px;
+    font-weight: 500;
+  }
+
+  .img{
+    height: 1000px;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    width: 90%;
+    margin-left: 5%;
+    background-image: url(https://images.pexels.com/photos/18068462/pexels-photo-18068462/free-photo-of-an-artist-s-illustration-of-artificial-intelligence-ai-this-image-was-insipired-by-how-ai-tools-can-amplify-bias-and-the-importance-of-research-to-mitigate-these-risks-it-was-created-b.png?auto=compress&cs=tinysrgb&w=600&lazy=load);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-top: 100px;
+  }
+
+  .img .arrow{
+    height: 270px;
+    width: 270px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: -10%;
+    right: 5%;
+    color: #fff;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    border: 10px solid #444;
+  }
+
+  .arrow i {
+    font-size: 200px;
+  }
